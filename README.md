@@ -1,16 +1,7 @@
-# bug
+# Flutter bug report — OpenType features not being used in widgets
 
-A new Flutter project.
+This repo contains the code to reproduce a potential bug in Flutter,
+wherein some OpenType features such as `liga` and `kern` are not applied
+in `Text` and `MarkdownBody` widgets.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](screenshot.png)
